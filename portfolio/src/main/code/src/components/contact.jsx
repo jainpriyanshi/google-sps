@@ -19,7 +19,7 @@ export  class contact extends Component {
 	render() {
 		return (
 			<div class="container row mx-auto" style={{margin: "60px 0px"}}>
-			<div class="col-lg-5 container text-center"  style={{fontFamily: "Roboto" , fontSize: "17px" , color: "white", margin:"50px 30px"}}>
+			<div class="col-lg-5 container text-center"  style={{fontFamily: "Roboto" , fontSize: "17px" , color: "white", margin:"50px 0px"}}>
         <p> Priyanshi Jain </p>
         <p> B-Tech, IIT Jodhpur</p>
         <p style={{fontSize: ""}}> Want to work together </p>
@@ -38,7 +38,7 @@ export  class contact extends Component {
         </a>       
 			</div>
 			<div class="col-lg-5 card container" style={{color: "white" }}>
-				<form Validate style={{margin:"50px 30px"}} >
+				<form Validate style={{margin:"50px 0px"}} >
           <TextField 
           variant="filled" 
           style={{ width: "100%" ,color: "white" , margin: "20px 0" }}

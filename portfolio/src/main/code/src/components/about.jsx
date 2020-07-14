@@ -82,6 +82,9 @@ export default class about extends Component {
 				</div>
 				<p style={{color: "white" , fontFamily: "Playfair Display" , fontSize: "40px" , marginBottom : "30px", marginTop:"110px"}} class="text-center"> Skills</p>
 				<p class="text-center" style={{fontFamily: "Roboto" , fontSize: "20px"}}> C++ , C , Javascript , CSS, HTML , React Js, Nodejs , Express Js </p>
+				<p style={{color: "white" , fontFamily: "Playfair Display" , fontSize: "40px" , marginBottom : "30px", marginTop:"110px"}} class="text-center"> Experience</p>
+				<p class="text-center" style={{fontFamily: "Roboto" , fontSize: "20px"}}>Remote Problem Setter Intern at Hackerearth </p>
+				<p class="text-center" style={{fontFamily: "Roboto" , fontSize: "20px"}}> Developed a Freelance Project for Riotofflavours </p>
 				<p style={{color: "white" , fontFamily: "Playfair Display" , fontSize: "40px" , marginBottom : "30px", marginTop:"110px"}} class="text-center"> Links </p>
 				<p> <b>Github:  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;</b> <a href = 'https://github.com/jainpriyanshi' target="_blank"> jainpriyanshi </a> </p>
 				<p> <b>Codechef: </b> &nbsp;  &nbsp;  &nbsp;   <a href = 'https://www.codechef.com/users/priyanshi2407' target="_blank"> priyanshi2407 </a> </p>
