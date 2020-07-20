@@ -6,6 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import Comment from './Comment'
 const stylesFn = () => ({
   input: {
     color: "white",
@@ -72,6 +73,7 @@ export  class contact extends Component {
           class="btn btn-secondary"> Contact </button>
         </form>
 			</div>
+      <Comment />
 		</div>
 		);
 	}
