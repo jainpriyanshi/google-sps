@@ -27,7 +27,7 @@ export class Comment extends Component {
             loaded: false,        }
     };
     componentDidMount(){
-        axios.get(`http://localhost:8080/all-comments`)
+        axios.get(`/all-comments`)
         .then(res=> this.setState({comments: res.data})
                     )
         .catch(err=> console.log(err));
