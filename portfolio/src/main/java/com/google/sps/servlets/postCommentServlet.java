@@ -29,6 +29,9 @@ public class postCommentServlet extends HttpServlet {
 
  @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    System.out.println(request);
+    setAccessControlHeaders(response);
+
     String name = request.getParameter("name");
     String message = request.getParameter("message");
     long timestamp = System.currentTimeMillis();
@@ -41,6 +44,10 @@ public class postCommentServlet extends HttpServlet {
     DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
     datastore.put(commentEntity);
 
-    response.sendRedirect("/index.html");
+    response.sendRedirect("/#/contact");
+  }
+  private void setAccessControlHeaders(HttpServletResponse resp) {
+      resp.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+      resp.setHeader("Access-Control-Allow-Methods", "POST");
   }
 }
